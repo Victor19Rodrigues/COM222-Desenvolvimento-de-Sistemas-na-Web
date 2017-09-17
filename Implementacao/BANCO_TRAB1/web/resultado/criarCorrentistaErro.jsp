@@ -10,13 +10,19 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Sistema Bancário</title>
+        <link href="style_banco.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-                   
-        <h1> Erro ao criar conta. </h1> <br>
-        <h2> Já possuimos este CPF cadastrado. <br>
-
-        <a href=".\index.jsp"> <input type="button" value="Home"></a>   
+    <center>
+        <div class="imgcontainer">
+            <img src="bank-support/erro.png" id="img">
+        </div>
         <br>
+        <div class="container2">
+            <h2>Já possuimos este CPF cadastrado</h2>
+            <a href=".\index.jsp"> <button>Página inicial</button></a>   
+            <br>
+        </div>
+        </center>
     </body>
 </html>
