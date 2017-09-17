@@ -1,6 +1,7 @@
 body {
     font-family: arial;
     font-size: 10pt;
+    background-color: darkgray;
 }
 
 a {
@@ -13,7 +14,10 @@ a:hover {
 
 .container {
     margin: auto;
+    width: 200px;
     padding: 20px;
+    background-color: lightgray;
+    box-shadow: 3px 3px 3px gray;
 }
 
 .labelcont {

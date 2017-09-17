@@ -16,7 +16,7 @@
         <div id="principal">
             <form align="center" action="./controleLoginCorrentista" method="post">
                 <div class="imgcontainer">
-                    <center><img src="./bank-support/banco.jpg" class="imgBanco"></center>
+                    <center><img src="bank-support/banco.png" class="imgBanco"></center>
                 </div>
 
                 <div class="container">
