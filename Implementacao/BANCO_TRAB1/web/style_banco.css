@@ -1,0 +1,31 @@
+body {
+    font-family: arial;
+    font-size: 10pt;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+.container {
+    margin: auto;
+    padding: 20px;
+}
+
+.labelcont {
+    margin: right;
+}
+
+button {
+    font-weight: bold;
+    padding: 3px;
+}
+
+button:hover {
+    opacity: 80%;
+}
+

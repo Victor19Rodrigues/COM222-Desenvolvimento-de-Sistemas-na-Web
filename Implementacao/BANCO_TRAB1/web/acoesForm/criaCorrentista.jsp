@@ -10,37 +10,39 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Sistema Bancário</title>
+        <link href="../style_banco.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
         <form align="center" action="../controleCriacaoCorrentista"  method=post>
             <div class="imgcontainer">
-                <img src="./bank-support/banco.jpg" class="imgBanco">
+                <center><img src="../bank-support/banco.jpg" class="imgBanco"></center>
             </div>
 
             <div class="container">
+                <center>
                 <label><b>Nome</b></label><br>
-                <input type="text" placeholder="Digite o seu nome" name="nome" required>
+                <input type="text" placeholder="Nome..." name="nome" required>
                 <br><br>
 
                 <label><b>CPF</b></label><br>
-                <input type="text" placeholder="Digite o seu CPF" name="CPF" required>
+                <input type="text" placeholder="CPF..." name="CPF" required>
                 <br><br>
 
                 <label><b>Email</b></label><br>
-                <input type="text" placeholder="Digite o seu email" name="email" required>
+                <input type="email" placeholder="E-mail..." name="email" required>
                 <br><br>
 
                 <label><b>Endereço</b></label><br>
-                <input type="text" placeholder="Digite a senha" name="endereco" required>
+                <input type="text" placeholder="Endereço..." name="endereco" required>
                 <br><br>
 
                 <label><b>Senha</b></label><br>
-                <input type="password" placeholder="Digite a senha" name="senha" required>
+                <input type="password" placeholder="Senha..." name="senha" required>
 
                 <br><br>
                 <button type="submit">Cadastrar</button>
-                <a href="..\index.jsp"> <input type="button" value="Cancelar"></a> 
-               
+                <a href="..\index.jsp"><button>Cancelar</button></a>
+                </center>
             </div>
         </form>
     </body>
