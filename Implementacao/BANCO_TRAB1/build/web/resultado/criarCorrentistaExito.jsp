@@ -19,7 +19,7 @@
         </div>
         
         <div class="container2">
-            <h2>Seja bem vindo, Sr. ${objCor.getNome()}!</h2> <br><br>
+            <h2>Seja bem vindo, Sr. ${objCor.getNome()}!</h2> <br>
             <a href=".\index.jsp"> <button>Página inicial</button></a>   
             <br>
         </div>

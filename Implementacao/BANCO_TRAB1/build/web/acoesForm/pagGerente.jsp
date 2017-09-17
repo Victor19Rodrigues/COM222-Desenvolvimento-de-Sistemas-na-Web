@@ -10,17 +10,24 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Sistema Bancário</title>
+        <link href="style_banco.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-          <form action="./operationServlet">
-               <b>Qual ação deseja realizar?</b>
-                            <br>
-                            <br><input type="radio" name="acao" value="funcionario">Cadastrar funcionários
-                            <br><input type="radio" name="acao" value="OpBancaria">Operações bancárias
-                            <br><input type="radio" name="acao" value="correntista">Criar conta 
-                           <br><br>
-                            
-                <input type="submit" value="Próximo">
-            </form>
+    <center>
+        <form action="./operationServlet">
+            <div class="imgcontainer">
+                <center><img src="bank-support/banco.png" class="imgBanco"></center>
+            </div>
+            <div class="container2" >
+                <center>
+                    <h1 style="color: cornflowerblue">Escolha a ação</h1>
+                    <br><input type="radio" name="acao" value="funcionario">Cadastrar funcionários
+                    <br><input type="radio" name="acao" value="OpBancaria">Operações bancárias
+                    <br><input type="radio" name="acao" value="correntista">Criar conta 
+                    <br><br>
+                    <input type="submit" value="Próximo" class="botao1">
+                </center>
+            </div>
+        </form>
     </body>
 </html>

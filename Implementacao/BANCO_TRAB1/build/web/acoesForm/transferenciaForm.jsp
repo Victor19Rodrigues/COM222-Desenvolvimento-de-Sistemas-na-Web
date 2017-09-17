@@ -9,42 +9,34 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Sistema Bancário <br><br> Transferência</title>
+        <title>Sistema Bancário - Transferência</title>
+        <link href="style_banco.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-        <h1>Realize uma transferência:</h1>
-        <form action="./controleTransferencia" method=post>
+        <div class="imgcontainer">
+            <center><img src="bank-support/banco.png" class="imgBanco"></center>
+        </div>
+    <center>
+        <div class="container2" style="width: 400px">
+            <h1 style="color: cornflowerblue">Realize uma transferência</h1>
 
-            <table cellpadding=4 cellspacing=2 border=0>        
+            <form action="./controleTransferencia" method=post>      
+                <b>Conta de Origem:</b><br>
+                <input type="text" name="nroContaorigem" size=15><br><br>
 
-                <tr>
-                    <td  valign=top>
-                        <b>Numero da conta de Origem:</b>
-                        <br>
-                        <input type="text" name="nroContaorigem" size=15></td>
-                </tr>            
-                <tr>
-                    <td  valign=top>
-                        <b>Numero da conta de Destino:</b>
-                        <br>
-                        <input type="text" name="nroContadestino" size=15></td>
-                </tr>            
-                <tr>
-                    <td  valign=top>
-                        <b>Valor a ser transferido:</b>
-                        <br>
-                        <input type="text" name="valor" size="15" ></td>
-                </tr>
-                <tr>
-                    <td  valign=top>
-                        <input type="submit" value="Transferir">
-                    </td>
-                </tr>            
-            </table>    
-        </form>
+                <b>Conta de Destino:</b><br>
+                <input type="text" name="nroContadestino" size=15><br><br>
 
-        <a href="./pagCorrentista.jsp"> <input type="button" value="Home"></a>   
+                <b>Valor:</b><br>
+                <input type="text" name="valor" size="15" ><br><br>
 
-        <br>
-    </body>
+                <input type="submit" value="Transferir" class="botao1" style="side">
+
+            </form>
+            <a href="./pagCorrentista.jsp"> <button>Voltar</button></a>  
+        </div>
+    </center>
+
+    <br>
+</body>
 </html>

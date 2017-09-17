@@ -48,3 +48,8 @@ h2 {
 #img {
     width: 300px;
 }
+
+.botao1 {
+    font-weight: bold;
+    padding: 5px;
+}

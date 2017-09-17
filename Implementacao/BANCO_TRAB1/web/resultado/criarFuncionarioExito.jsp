@@ -9,13 +9,18 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Sistema Bancário</title>
+        <link href="style_banco.css" rel="stylesheet" type="text/css" />
     </head>
-    <body>
-        <h1> Seja bem vindo, Sr. ${objFunc.getNome()} ! </h1> <br>
-         
-            <a href=".\index.jsp"> <input type="button" value="Home"></a>   
-
+    <center>
+        <div class="imgcontainer">
+            <img src="bank-support/ok.png" id="img">
+        </div>
+        
+        <div class="container2">
+            <h2>Seja bem vindo, Sr. ${objFunc.getNome()}!</h2> <br>
+            <a href=".\index.jsp"> <button>Página inicial</button></a>   
             <br>
-    </body>
+        </div>
+    </center>
 </html>
